@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+
 /**
  * 
  * @author ksomalin
@@ -15,7 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("ping")
 public class PingController { 
-
     /**
      * Get ping Response 'SUCCESS' if this service is active.
      */
